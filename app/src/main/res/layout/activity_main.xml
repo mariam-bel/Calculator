@@ -26,14 +26,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_end="457dp" />
+        app:layout_constraintGuide_end="464dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/mainGLh4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.868" />
+        app:layout_constraintGuide_percent="0.88" />
 
     <androidx.constraintlayout.widget.Guideline
         android:layout_width="wrap_content"
@@ -85,7 +85,8 @@
         android:layout_marginTop="30dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="cosas"
+        android:fontFamily="@font/funkhouse"
+        android:textSize="40dp"
         android:layout_gravity="center"
         android:gravity="center"
         android:background="@drawable/formapantalla"
@@ -109,60 +110,69 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/button1"
+                android:id="@+id/ac"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:text="AC"
                 android:textStyle="bold"
                 android:textSize="18dp"
-                android:textColor="@color/rosaSecundario" />
+                android:fontFamily="@font/funkhouse"
+                />
 
             <TextView
-                android:id="@+id/button2"
+                android:id="@+id/percentage"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/white" />
+                android:fontFamily="@font/funkhouse"
+                android:text="%"
+                android:textSize="25dp"
+                />
 
             <TextView
-                android:id="@+id/button3"
+                android:id="@+id/delete"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+
+                />
 
 
             <TextView
-                android:id="@+id/button4"
+                android:id="@+id/divide"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
-                android:text="➗"
+                android:text="/"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
                 />
 
 
@@ -174,62 +184,75 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/button5"
+                android:id="@+id/num1"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
-                android:text="Ⅰ"
+                android:text="1"
                 android:textStyle="bold"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+                />
 
             <TextView
-                android:id="@+id/button6"
+                android:id="@+id/num2"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginTop="5dp"
-                android:textStyle="bold"
-                android:text="ⅠⅠ"
-                android:textColor="@color/white" />
-
-            <TextView
-                android:id="@+id/button7"
-                android:gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="ⅠⅠⅠ"
-                android:textColor="@color/white" />
+                android:text="2"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
 
             <TextView
-                android:id="@+id/button8"
+                android:id="@+id/num3"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
-                android:text="✖️"
+                android:textStyle="bold"
+                android:text="3"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
+
+            <TextView
+                android:id="@+id/multiply"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/formaboton"
+                android:elevation="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="5dp"
+                android:text="x"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="20dp"
                 />
         </TableRow>
 
@@ -238,62 +261,76 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/button9"
+                android:id="@+id/num4"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="Ⅳ"
-                android:textColor="@color/white" />
+                android:text="4"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
 
             <TextView
-                android:id="@+id/button10"
+                android:id="@+id/num5"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="Ⅴ"
-                android:textColor="@color/white" />
+                android:text="5"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
 
             <TextView
-                android:id="@+id/button11"
+                android:id="@+id/num6"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="Ⅵ"
-                android:textColor="@color/white" />
+                android:text="6"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
 
             <TextView
-                android:id="@+id/button12"
+                android:id="@+id/restar"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
-                android:text="➖"
+                android:text="-"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="35dp"
                 />
         </TableRow>
 
@@ -302,62 +339,75 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/button13"
+                android:id="@+id/num7"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="Ⅶ"
-                android:textColor="@color/white" />
+                android:text="7"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
 
             <TextView
-                android:id="@+id/button14"
+                android:id="@+id/num8"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="Ⅷ"
-                android:textColor="@color/white" />
+                android:text="8"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+                />
 
             <TextView
-                android:id="@+id/button15"
+                android:id="@+id/num9"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
-                android:text="Ⅸ"
-                android:textColor="@color/white" />
+                android:text="9"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
 
             <TextView
-                android:id="@+id/button16"
+                android:id="@+id/sumar"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginTop="5dp"
-                android:text="➕"
+                android:text="+"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="35dp"
                 />
 
         </TableRow>
@@ -366,90 +416,88 @@
             android:layout_height="match_parent">
 
             <TextView
-                android:id="@+id/button17"
+                android:id="@+id/parentheses"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="12dp"
                 android:layout_marginTop="5dp"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:text="()"
+                android:fontFamily="@font/funkhouse"
+                android:textSize="25dp"
+
+                />
 
             <TextView
-                android:id="@+id/button18"
+                android:id="@+id/num0"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:padding="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="12dp"
                 android:layout_marginTop="5dp"
                 android:textStyle="bold"
                 android:textSize="25dp"
-                android:text="·"
-                android:textColor="@color/white" />
+                android:text="0"
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                />
 
             <TextView
-                android:id="@+id/button19"
+                android:id="@+id/coma"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="12dp"
                 android:layout_marginTop="5dp"
                 android:textSize="25dp"
                 android:textStyle="bold"
                 android:text=","
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:fontFamily="@font/funkhouse"
+                />
 
             <TextView
-                android:id="@+id/button20"
+                android:id="@+id/equal"
                 android:gravity="center"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="@drawable/formaboton"
-                android:elevation="10dp"
+                android:elevation="5dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="12dp"
                 android:layout_marginTop="5dp"
-                android:text="🟰"
+                android:text="="
+                android:textSize="35dp"
+                android:fontFamily="@font/funkhouse"
+
                 />
         </TableRow>
     </TableLayout>
+
     <TextView
-        android:id="@+id/porcentage"
-        app:drawableStartCompat="@drawable/percentage"
-        app:layout_constraintEnd_toStartOf="@id/mainGLv4"
-        app:layout_constraintTop_toBottomOf="@id/mainGLh3"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        />
-    <TextView
-        android:id="@+id/borrar"
+        android:id="@+id/deleteIcon"
         app:drawableStartCompat="@drawable/borrar"
         app:layout_constraintEnd_toStartOf="@id/mainGLv3"
         app:layout_constraintTop_toBottomOf="@id/mainGLh3"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         />
-    <TextView
-        android:id="@+id/parentesis"
-        app:drawableStartCompat="@drawable/parentesis"
-        app:layout_constraintEnd_toStartOf="@id/mainGLv5"
-        app:layout_constraintTop_toBottomOf="@id/mainGLh4"
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
-        />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
