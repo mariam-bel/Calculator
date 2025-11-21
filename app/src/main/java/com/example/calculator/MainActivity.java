@@ -120,6 +120,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String elementoPant = pantalla.getText().toString();
             if (!elementoPant.isEmpty()){
                 elementoPant = elementoPant.substring(0, elementoPant.length()-1);
+                expresion = elementoPant;
                 pantalla.setText(elementoPant);
             }else {
                 pantalla.setText(" ");
@@ -170,6 +171,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             if (Double.isNaN(resultado)){
                 pantalla.setText("ERROR");
+                expresion = "";
             } else {
                 pantalla.setText(String.valueOf(resultado));
                 expresion = String.valueOf(resultado);
